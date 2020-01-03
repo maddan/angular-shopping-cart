@@ -6,22 +6,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Technologies used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Typescript
+Angular Framework
+Node.js
+Angular Material
+Angular CLI
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+I used Angular CLI for the ease of development since it gives your the bolerplate app so that you can focus only on the logic. I used Angular Material to make use of the table the library provides. I used mock data for the cart so that i can go through the list and push them to better get the total cost for the Shopping Cart. Also, added the deals that go along with the items added.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Some improvements I could have done better:
+- Currently deals are hardcoded and only works for the Mock data. I would need to remove the hardcoding part and add better logic.
+- Leverage more use of Angular material library.
+- Maybe add routing functionality to go back and forth between the list and add to cart for better experience.

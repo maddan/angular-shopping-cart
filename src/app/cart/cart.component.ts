@@ -17,8 +17,8 @@ const CART_DATA: CartItems[] = [
   styleUrls: ['./cart.component.scss']
 })
 export class CartComponent implements OnInit {  
-  private items: CartItems[] = [];
-  private total: number = 0;
+  public items: CartItems[] = [];
+  public total: number = 0;
   cartItemColumns: string[] = ['name', 'price', 'quantity'];
   dataSource = CART_DATA;
   constructor() { }
